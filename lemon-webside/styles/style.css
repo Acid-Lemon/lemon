@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+}
+
+.full-background {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background: url("../images/background.webp") center center / cover no-repeat;
+}
+
+body > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-color: #d6ecf0;
+  opacity: 75%;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+body > div > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
+
+body > div > div > div > div > img {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+body > div > div > div > p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+body > div > div > .juzhong {
+  align-items: center;
+}
+
+body > div > div > div > .you {
+  margin-right: 15px;
+}
+
+body > div > div > div > div {
+  display: flex;
+  flex-direction: row;
+}
+
+body > div > div > div > div > div > p {
+  margin: 0px;
+}
+
+body > div > div > div > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body > div > div > div > div > div .da {
+  margin: 0px;
+  font-size: 16px;
+}
+
+body > div > div > div > div > div .xiao {
+  margin: 0px;
+  font-size: 12px;
+}
